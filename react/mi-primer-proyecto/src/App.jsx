@@ -125,4 +125,10 @@ export function App() {
   );
 }
 
+
+//Hacer lo mismo que el JS puro pero en React, las dos primeras APIs, las del perro y el gato
+
+
+
+
 export default App;
