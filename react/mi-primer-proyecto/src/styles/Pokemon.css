@@ -14,7 +14,6 @@ body {
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   width: 100%;
-  max-width: 550px; /* Lo he ampliado un poco para que la lista horizontal luzca mejor */
   text-align: center;
 }
 

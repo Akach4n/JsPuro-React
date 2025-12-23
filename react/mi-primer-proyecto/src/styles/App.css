@@ -1,0 +1,100 @@
+/* App.css */
+
+/* 1. Reset y Layout base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  padding: 40px 20px; /* Padding equilibrado a los lados */
+  color: #333;
+}
+
+/* 2. Header y Menú - CORREGIDO */
+header {
+  width: 90%;             /* Igual que el main */
+  max-width: 1000px;      /* Igual que el main */
+  display: flex;
+  padding: 20px ;
+  justify-content: center; /* Centra los botones dentro de esos 1000px */
+  margin-bottom: 20px;    
+  background: rgba(255,255,255,1); border-radius: 10px;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  /* Eliminamos cualquier margen extraño que pudiera moverlo */
+}
+
+/* 3. Contenedor principal - SIN CAMBIOS (YA ESTÁ BIEN) */
+main {
+  background: white;
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+  min-height: 600px; 
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 4. Estilos de Botones */
+button {
+  background-color: #eee;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ddd;
+  transform: translateY(-2px);
+}
+
+.active {
+  background-color: #3498db !important;
+  color: white !important;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+/* 5. Títulos y textos */
+h1 {
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  font-size: 2.2rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+}
+
+/* 6. Estilo para las imágenes */
+img {
+  max-width: 500px;    
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 2rem auto;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}

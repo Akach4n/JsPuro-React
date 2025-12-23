@@ -1,0 +1,57 @@
+/* Contenedor principal */
+.contenedor-productos {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Estilo de la lista */
+.lista-productos {
+    list-style: none;
+    padding: 0;
+}
+
+/* Cada fila de producto */
+.producto-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; /*Para que el espacio sea mayor*/
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 12px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Efecto al pasar el ratón */
+.producto-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    background-color: #f9f9f9;
+}
+
+/* Estilo del nombre */
+.nombre {
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+/* Estilo del precio */
+.precio {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
